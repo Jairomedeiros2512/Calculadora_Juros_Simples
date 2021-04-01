@@ -25,10 +25,10 @@ function compute()
     interest = (Number(principal) * Number(years) * Number(rate)) /100;
     actualyear = (new Date().getFullYear()) + Number(years);
     spanresult = document.getElementById("result");
-    var text = 'If you deposit '+principal+',\n'+
-               'at an interest rate of '+rate+'%.\n'+
-               'You will receive an amount of '+interest+',\n'+
-               'in the year '+actualyear.toString()
+    var text = 'Se você Depositar............... '+principal+',\n'+
+               'Temos uma Taxa de Juros de...... '+rate+'%.\n'+
+               'Recebera o Valor de............. '+interest+',\n'+
+               'No Ano de....................... '+actualyear.toString()
     spanresult.innerText = text
     }
     
